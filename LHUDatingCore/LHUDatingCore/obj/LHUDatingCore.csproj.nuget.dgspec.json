@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj": {}
+    "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\WebAdvance-LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj": {}
   },
   "projects": {
-    "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj": {
+    "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\WebAdvance-LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj",
+        "projectUniqueName": "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\WebAdvance-LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj",
         "projectName": "LHUDatingCore",
-        "projectPath": "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj",
+        "projectPath": "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\WebAdvance-LHUDating\\LHUDatingCore\\LHUDatingCore\\LHUDatingCore.csproj",
         "packagesPath": "C:\\Users\\thang\\.nuget\\packages\\",
-        "outputPath": "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\LHUDating\\LHUDatingCore\\LHUDatingCore\\obj\\",
+        "outputPath": "D:\\Hoc Tap\\LHU\\(IT TEAM-18CT111)\\Ky 7\\Web Advanced\\WebAdvance-LHUDating\\LHUDatingCore\\LHUDatingCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thang\\AppData\\Roaming\\NuGet\\NuGet.Config",
