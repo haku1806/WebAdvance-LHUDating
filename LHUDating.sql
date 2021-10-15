@@ -1,7 +1,7 @@
-CREATE DATABASE [VChat]
+CREATE DATABASE [LHUDating]
 GO
 
-USE [VChat]
+USE [LHUDating]
 GO
 
 CREATE TABLE [dbo].[User](
