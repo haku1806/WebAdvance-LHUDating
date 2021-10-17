@@ -4,5 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Dto\" />
+    <Folder Include="Ulti\" />
+    <Folder Include="Resource\" />
+    <Folder Include="Service\" />
+  </ItemGroup>
+
 
 </Project>
