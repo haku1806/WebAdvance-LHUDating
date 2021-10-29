@@ -1,0 +1,13 @@
+<div class="search-container">
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+      <span class="logo" routerLink="/">LHU Dating</span>
+      <input
+        class="search-input"
+        name="search"
+        ngModel
+        placeholder="Bạn muốn tìm ai?"
+      />
+      <button class="search-button">Search</button>
+    </form>
+  </div>
+  
