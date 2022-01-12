@@ -17,6 +17,7 @@ CREATE TABLE [dbo].[User](
 	[Gender] [nvarchar](10) NULL,
 	[LastLogin] [datetime] NULL,
 	[CurrentSession] [varchar](500) NULL,
+	[Role] [int] DEFAULT 0,		/*1: Admin, 0: User*/
  CONSTRAINT [PK_User] PRIMARY KEY CLUSTERED 
 (
 	[Code] ASC
@@ -29,7 +30,7 @@ CREATE TABLE [dbo].[Contact](
 	[Id] [bigint] IDENTITY(1,1) NOT NULL,
 	[UserCode] [varchar](32) NOT NULL,
 	[ContactCode] [varchar](32) NOT NULL,
-	[isMatch] [bit] NOT NULL,
+	[isMatch] [int] NOT NULL,
 	[Created] [datetime] NOT NULL
  CONSTRAINT [PK_Contact] PRIMARY KEY CLUSTERED 
 (
@@ -80,24 +81,6 @@ CREATE TABLE [dbo].[Message](
 	[Id] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
-
-GO
-
-CREATE TABLE [dbo].[Admin](
-	[Code] [varchar](32) NOT NULL,
-	[UserName] [varchar](32) NOT NULL,
-	[Password] [varchar](124) NULL,
-	[FullName] [nvarchar](50) NULL,
-	[Phone] [varchar](50) NULL,
-	[Email] [varchar](50) NULL,
-	[Role] [int] NOT NULL,		/*1: Admin, 0: Supporter*/
-	[LastLogin] [datetime] NULL,
-	[Active] [bit] NOT NULL,
- CONSTRAINT [PK_Admin] PRIMARY KEY CLUSTERED 
-(
-	[Code] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
 
 GO
 

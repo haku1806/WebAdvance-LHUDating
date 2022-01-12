@@ -1,3 +1,29 @@
-<p>
-  home works!
-</p>
+<div class="">
+  <mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>card_giftcard</mat-icon>
+    </button>
+    <span>LHU Dating</span>
+    <span class="example-spacer"></span>
+    <a mat-icon-button class="example-icon favorite-icon" (click)="navigate('/message')">
+      <mat-icon>message</mat-icon>
+    </a>
+    <a mat-icon-button class="example-icon favorite-icon" (click)="navigate('/profile')">
+      <mat-icon>Profile</mat-icon>
+    </a>
+    <button 
+      mat-icon-button 
+      class="example-icon" 
+      aria-label="Example icon-button with share icon"
+      (click)="logOut()"
+    >
+      <mat-icon>subdirectory_arrow_right</mat-icon>
+    </button>
+  </mat-toolbar>  
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>1</mat-grid-tile>
+    <mat-grid-tile>2</mat-grid-tile>
+    <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile>
+  </mat-grid-list>
+</div>
